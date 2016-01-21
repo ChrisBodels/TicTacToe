@@ -219,7 +219,7 @@ public class TicTacToe {
 						double x = col * .33 + 0.15;
 						double y = 1 * .33 + 0.15;
 						StdDraw.text(x, y, "X" );
-						board[row][1] = 1;
+						board[col][1] = 1;
 					}	
 					else if(board[col][2] == 0)
 					{
